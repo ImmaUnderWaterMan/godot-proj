@@ -1,0 +1,47 @@
+# --- Godot 4+ Specific ---
+# Папка с импортированными ресурсами (генерируется автоматически, не нужна в репо)
+.import/
+
+# Файлы настроек редактора (локальные для каждого разработчика)
+.editorconfig
+*.godot_uid
+
+# Временные файлыGodot
+~*
+
+# --- OS Specific ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# --- IDE / Editors ---
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (Rider/IntelliJ)
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# --- Build / Export (Опционально) ---
+# Если вы храните сборки в папке проекта, добавьте их сюда
+# export/
+# builds/
